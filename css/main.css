@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.clock {
+    display: flex;
+    position: relative;
+}
+
+.clock-time {
+    background-color: rgba(61, 25, 52, 0.747);
+    width: 150px;
+    height: 85px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.clock-time span {
+    font-size: 2.25rem;
+    color: #fff;
+    margin: auto 0;
+}
+
+.clock-second {
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+#second {
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    right: 0.25rem;
+    bottom: 0.25rem;
+}
+
+.days {
+    background-color: rgba(61, 25, 52, 0.747);
+    border-radius: 5px;
+    margin-top: 0.25rem;
+    padding: 0.15rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    background-color: rgba(61, 25, 52, 0.747);
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 0.25rem;
+}
+
+.date span {
+    padding-left: 0.25rem;
+}
+
+.active {
+    color: #fff;
+    font-size: 2rem;
+}
